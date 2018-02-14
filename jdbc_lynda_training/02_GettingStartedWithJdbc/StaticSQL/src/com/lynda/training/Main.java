@@ -28,6 +28,14 @@ public class Main {
             if(conn != null){
                 conn.close();
             }
+
+            if(stmt !=  null){
+                stmt.close();
+            }
+
+            if(rs != null){
+                rs.close();
+            }
         }
 
     }
